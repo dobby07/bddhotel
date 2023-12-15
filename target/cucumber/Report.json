@@ -1,0 +1,823 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-15T04:11:34.605Z",
+        "line": 7,
+        "name": "Listar Cargos",
+        "description": "",
+        "id": "gestión-de-cargos;listar-cargos",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 430084200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "el usuario está en la página de administración de cargos",
+            "match": {
+              "location": "StepDefinitions.CargoSteps.user_is_on_cargo_admin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 68001400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "el usuario lista los cargos",
+            "match": {
+              "location": "StepDefinitions.CargoSteps.user_lists_cargos()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "se deberían mostrar todos los cargos",
+            "match": {
+              "location": "StepDefinitions.CargoSteps.cargos_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-15T04:11:35.352Z",
+        "line": 12,
+        "name": "Buscar Cargo por Código",
+        "description": "",
+        "id": "gestión-de-cargos;buscar-cargo-por-código",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11999600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "el usuario está en la página de administración de cargos",
+            "match": {
+              "location": "StepDefinitions.CargoSteps.user_is_on_cargo_admin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2001300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "el usuario busca un cargo por código",
+            "match": {
+              "location": "StepDefinitions.CargoSteps.user_searches_cargo_by_code()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "debería encontrar el cargo correspondiente",
+            "match": {
+              "location": "StepDefinitions.CargoSteps.cargo_should_be_found()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-15T04:11:35.390Z",
+        "line": 17,
+        "name": "Agregar Nuevo Cargo",
+        "description": "",
+        "id": "gestión-de-cargos;agregar-nuevo-cargo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8997900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "el usuario está en la página de administración de cargos",
+            "match": {
+              "location": "StepDefinitions.CargoSteps.user_is_on_cargo_admin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19000500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "el usuario agrega un nuevo cargo",
+            "match": {
+              "location": "StepDefinitions.CargoSteps.user_adds_new_cargo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "el nuevo cargo debería estar en la lista de cargos",
+            "match": {
+              "location": "StepDefinitions.CargoSteps.new_cargo_should_be_in_cargo_list()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-15T04:11:35.436Z",
+        "line": 22,
+        "name": "Eliminar Cargo",
+        "description": "",
+        "id": "gestión-de-cargos;eliminar-cargo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8001200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "el usuario está en la página de administración de cargos",
+            "match": {
+              "location": "StepDefinitions.CargoSteps.user_is_on_cargo_admin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "el usuario elimina un cargo",
+            "match": {
+              "location": "StepDefinitions.CargoSteps.user_deletes_cargo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "el cargo debería ser eliminado de la lista de cargos",
+            "match": {
+              "location": "StepDefinitions.CargoSteps.cargo_should_be_deleted_from_cargo_list()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-15T04:11:35.453Z",
+        "line": 27,
+        "name": "Modificar Cargo",
+        "description": "",
+        "id": "gestión-de-cargos;modificar-cargo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9000600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "el usuario está en la página de administración de cargos",
+            "match": {
+              "location": "StepDefinitions.CargoSteps.user_is_on_cargo_admin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "el usuario modifica un cargo",
+            "match": {
+              "location": "StepDefinitions.CargoSteps.user_modifies_cargo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "el cargo debería reflejar los cambios en la lista de cargos",
+            "match": {
+              "location": "StepDefinitions.CargoSteps.cargo_should_reflect_changes_in_cargo_list()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Gestión de Cargos",
+    "description": "",
+    "id": "gestión-de-cargos",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/cargo.feature",
+    "tags": []
+  },
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-15T04:11:35.471Z",
+        "line": 7,
+        "name": "Listar clientes",
+        "description": "",
+        "id": "gestión-de-clientes;listar-clientes",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20004500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "el usuario está en la página de gestión de clientes",
+            "match": {
+              "location": "StepDefinitions.ClienteSteps.user_is_on_client_management_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1995500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "el usuario lista los clientes",
+            "match": {
+              "location": "StepDefinitions.ClienteSteps.user_lists_clients()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "se deberían mostrar todos los clientes",
+            "match": {
+              "location": "StepDefinitions.ClienteSteps.clients_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-15T04:11:35.507Z",
+        "line": 12,
+        "name": "Agregar nuevo cliente",
+        "description": "",
+        "id": "gestión-de-clientes;agregar-nuevo-cliente",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9999600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "el usuario está en la página de gestión de clientes",
+            "match": {
+              "location": "StepDefinitions.ClienteSteps.user_is_on_client_management_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22000500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "el usuario agrega un nuevo cliente con DNI \"{DNI}\", nombre \"{Nombre}\", apellido \"{Apellido}\", y teléfono \"{Telefono}\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"{DNI}\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"{Nombre}\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"{Apellido}\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"{Telefono}\"",
+                  "offset": 105
+                }
+              ],
+              "location": "StepDefinitions.ClienteSteps.user_adds_new_client(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "el nuevo cliente debería estar en la lista de clientes",
+            "match": {
+              "location": "StepDefinitions.ClienteSteps.new_client_should_be_in_client_list()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-15T04:11:35.546Z",
+        "line": 17,
+        "name": "Buscar cliente por DNI",
+        "description": "",
+        "id": "gestión-de-clientes;buscar-cliente-por-dni",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8999000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "el usuario está en la página de gestión de clientes",
+            "match": {
+              "location": "StepDefinitions.ClienteSteps.user_is_on_client_management_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3000500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "el usuario busca un cliente por DNI \"{DNI}\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"{DNI}\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinitions.ClienteSteps.user_searches_client_by_dni(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "debería encontrar el cliente correspondiente",
+            "match": {
+              "location": "StepDefinitions.ClienteSteps.client_should_be_found()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-15T04:11:35.568Z",
+        "line": 22,
+        "name": "Modificar cliente",
+        "description": "",
+        "id": "gestión-de-clientes;modificar-cliente",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4998800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "el usuario está en la página de gestión de clientes",
+            "match": {
+              "location": "StepDefinitions.ClienteSteps.user_is_on_client_management_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11000700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "el usuario modifica el cliente con DNI \"{DNI}\" y actualiza el nombre a \"{NuevoNombre}\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"{DNI}\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"{NuevoNombre}\"",
+                  "offset": 71
+                }
+              ],
+              "location": "StepDefinitions.ClienteSteps.user_modifies_client(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "el cliente debería reflejar los cambios en la lista de clientes",
+            "match": {
+              "location": "StepDefinitions.ClienteSteps.client_should_reflect_changes_in_client_list()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-15T04:11:35.593Z",
+        "line": 27,
+        "name": "Eliminar cliente",
+        "description": "",
+        "id": "gestión-de-clientes;eliminar-cliente",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3999600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "el usuario está en la página de gestión de clientes",
+            "match": {
+              "location": "StepDefinitions.ClienteSteps.user_is_on_client_management_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1001700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "el usuario elimina el cliente con DNI \"{DNI}\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"{DNI}\"",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinitions.ClienteSteps.user_deletes_client(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1997300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "el cliente debería ser eliminado de la lista de clientes",
+            "match": {
+              "location": "StepDefinitions.ClienteSteps.client_should_be_deleted_from_client_list()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Gestión de Clientes",
+    "description": "",
+    "id": "gestión-de-clientes",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/cliente.feature",
+    "tags": []
+  },
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-15T04:11:35.607Z",
+        "line": 7,
+        "name": "Verificar la conexión a la base de datos",
+        "description": "",
+        "id": "feature-para-probar-la-conexión-a-la-base-de-datos;verificar-la-conexión-a-la-base-de-datos",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7999700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "se establece la conexión a la base de datos",
+            "match": {
+              "location": "StepDefinitions.ConexionSteps.seEstableceLaConexionALaBaseDeDatos()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1001000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "se realiza una consulta simple",
+            "match": {
+              "location": "StepDefinitions.ConexionSteps.seRealizaUnaConsultaSimple()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8999100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "la conexión a la base de datos es exitosa",
+            "match": {
+              "location": "StepDefinitions.ConexionSteps.laConexionALaBaseDeDatosEsExitosa()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature para probar la conexión a la base de datos",
+    "description": "",
+    "id": "feature-para-probar-la-conexión-a-la-base-de-datos",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/conexion.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-15T04:11:35.632Z",
+        "line": 4,
+        "name": "Check password recovery is successful with valid email",
+        "description": "",
+        "id": "feature-to-test-password-recovery-functionality;check-password-recovery-is-successful-with-valid-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the password recovery page",
+            "match": {
+              "location": "StepDefinitions.RecoverySteps.user_is_on_password_recovery_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters their registered email",
+            "match": {
+              "location": "StepDefinitions.RecoverySteps.user_enters_registered_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on the recovery button",
+            "match": {
+              "location": "StepDefinitions.RecoverySteps.clicks_on_recovery_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user receives a password reset email",
+            "match": {
+              "location": "StepDefinitions.RecoverySteps.user_receives_password_reset_email()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-15T04:11:35.646Z",
+        "line": 10,
+        "name": "Check password recovery fails with an invalid email",
+        "description": "",
+        "id": "feature-to-test-password-recovery-functionality;check-password-recovery-fails-with-an-invalid-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on the password recovery page",
+            "match": {
+              "location": "StepDefinitions.RecoverySteps.user_is_on_password_recovery_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters an invalid email",
+            "match": {
+              "location": "StepDefinitions.RecoverySteps.user_enters_invalid_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicks on the recovery button",
+            "match": {
+              "location": "StepDefinitions.RecoverySteps.clicks_on_recovery_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user sees an error message",
+            "match": {
+              "location": "StepDefinitions.RecoverySteps.user_sees_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test password recovery functionality",
+    "description": "",
+    "id": "feature-to-test-password-recovery-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/recovery.feature",
+    "tags": []
+  },
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-15T04:11:35.657Z",
+        "line": 7,
+        "name": "Realizar una reserva exitosa",
+        "description": "",
+        "id": "reservar-una-habitación-de-hotel;realizar-una-reserva-exitosa",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "el usuario está en la página de reservas",
+            "match": {
+              "location": "StepDefinitions.ReservaSteps.elUsuarioEstaEnLaPaginaDeReservas()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "el usuario selecciona una habitación individual con fecha de entrada \"2023-12-01\" y fecha de salida \"2023-12-05\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2023-12-01",
+                  "offset": 70
+                },
+                {
+                  "val": "2023-12-05",
+                  "offset": 101
+                }
+              ],
+              "location": "StepDefinitions.ReservaSteps.elUsuarioSeleccionaUnaHabitacionIndividualConFechas(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "completa la información del huésped con nombre \"Juan Pérez\" y número de teléfono \"123456789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Juan Pérez",
+                  "offset": 48
+                },
+                {
+                  "val": "123456789",
+                  "offset": 82
+                }
+              ],
+              "location": "StepDefinitions.ReservaSteps.completaLaInformacionDelHuesped(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "hace clic en el botón de reserva",
+            "match": {
+              "location": "StepDefinitions.ReservaSteps.haceClicEnElBotonDeReserva()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "la reserva debería ser confirmada con un número de reserva único",
+            "match": {
+              "location": "StepDefinitions.ReservaSteps.laReservaDeberiaSerConfirmadaConNumeroUnico()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "el usuario debería recibir un correo electrónico de confirmación",
+            "match": {
+              "location": "StepDefinitions.ReservaSteps.elUsuarioDeberiaRecibirCorreoDeConfirmacion()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Reservar una habitación de hotel",
+    "description": "",
+    "id": "reservar-una-habitación-de-hotel",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/reserva.feature",
+    "tags": []
+  }
+]
