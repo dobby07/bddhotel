@@ -21,7 +21,7 @@ steps:
 - task: PublishCucumberReport@1
   inputs:
     jsonDir: 'target/HtmlReports/'
-    outputPath: 'target/HtmlReports/index.html'
+    outputPath: 'target/HtmlReports/'
     theme: 'bootstrap'
     reportSuiteAsScenarios: true
     name: 'Cucumber HTML'
