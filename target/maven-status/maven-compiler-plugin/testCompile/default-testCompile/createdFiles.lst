@@ -1,0 +1,7 @@
+StepDefinitions\CargoSteps.class
+StepDefinitions\ClienteSteps.class
+StepDefinitions\TestRunner.class
+StepDefinitions\UsuariosSteps.class
+StepDefinitions\ConexionSteps.class
+StepDefinitions\ReservaSteps.class
+StepDefinitions\RecoverySteps.class

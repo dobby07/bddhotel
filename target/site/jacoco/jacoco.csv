@@ -1,0 +1,91 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+mavenproject1,pkgPresentacion,FrmClienteInternal,688,0,6,0,155,0,10,0,7,0
+mavenproject1,pkgPresentacion,FrmPrincipal.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmPrincipal.new Runnable() {...},9,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmLogin,447,0,4,0,104,0,5,0,3,0
+mavenproject1,pkgPresentacion,FrmAgregarHabi,1175,0,0,0,249,0,4,0,4,0
+mavenproject1,pkgPresentacion,FrmCliente,1424,0,28,0,300,0,27,0,13,0
+mavenproject1,pkgPresentacion,FrmInternalReservas.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmInternalReservas.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmInternalListaHab,807,0,8,0,142,0,9,0,5,0
+mavenproject1,pkgPresentacion,FrmCargo.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmClienteInternal.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmCargo.new MouseAdapter() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmClienteInternal.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmCargo.new ListSelectionListener() {...},48,0,4,0,7,0,4,0,2,0
+mavenproject1,pkgPresentacion,FrmClienteInternal.new Runnable() {...},9,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmCargo.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmCargo.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmCargo.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmCargo.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmClienteInternal.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmReservas,968,0,16,0,168,0,17,0,9,0
+mavenproject1,pkgPresentacion,FrmInternalRes.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmInternalRes.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmPrincipal,767,0,4,0,170,0,16,0,14,0
+mavenproject1,pkgPresentacion,FrmAlquilerHab,768,0,6,0,164,0,8,0,5,0
+mavenproject1,pkgPresentacion,FrmInternalRes.new KeyAdapter() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmPrincipal.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmPrincipal.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmUsuarios,1563,0,22,0,330,0,22,0,11,0
+mavenproject1,pkgPresentacion,FrmPrincipal.new MouseAdapter() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmInternalListaHab.new ListSelectionListener() {...},112,0,4,0,15,0,4,0,2,0
+mavenproject1,pkgPresentacion,FrmPrincipal.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmInternalListaHab.new DefaultTableCellRenderer() {...},25,0,2,0,8,0,3,0,2,0
+mavenproject1,pkgPresentacion,FrmInternalListaHab.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmInternalListaHab.new MouseAdapter() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmPrincipal.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmPrincipal.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmUsuarios.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmCargoInternal,442,0,6,0,101,0,9,0,6,0
+mavenproject1,pkgPresentacion,FrmAlquilerHab.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmPrincipal.new MouseAdapter() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmUsuarios.new MouseAdapter() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmAlquilerHab.new Runnable() {...},9,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmPrincipal.new MouseAdapter() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmUsuarios.new JTable() {...},8,0,0,0,2,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmUsuarios.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmPrincipal.new MouseAdapter() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmUsuarios.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmInternalRes,525,0,0,0,119,0,5,0,5,0
+mavenproject1,pkgPresentacion,FrmUsuariosInternal.new Runnable() {...},9,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmUsuariosInternal.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmUsuariosInternal.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmCargo,1102,0,24,0,227,0,22,0,10,0
+mavenproject1,pkgPresentacion,FrmCliente.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmCliente.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmCliente.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmCliente.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmCliente.new MouseAdapter() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmCliente.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmCargoInternal.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmCargoInternal.new Runnable() {...},9,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmCargoInternal.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmCliente.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmCliente.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmLogin.new Runnable() {...},9,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmReservas.new ListSelectionListener() {...},104,0,4,0,11,0,4,0,2,0
+mavenproject1,pkgPresentacion,FrmReservas.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmReservas.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmReservas.new MouseAdapter() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmReservas.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmReservas.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmUsuarios.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmUsuarios.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmUsuarios.new ListSelectionListener() {...},96,0,4,0,13,0,4,0,2,0
+mavenproject1,pkgPresentacion,FrmUsuarios.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+mavenproject1,pkgPresentacion,FrmInternalReservas,721,0,2,0,152,0,6,0,5,0
+mavenproject1,pkgPresentacion,FrmUsuariosInternal,957,0,14,0,211,0,13,0,6,0
+mavenproject1,pkgEntidad,clsEHabitaciones,76,0,0,0,32,0,16,0,16,0
+mavenproject1,pkgEntidad,clsEReservas,87,0,0,0,36,0,18,0,18,0
+mavenproject1,pkgEntidad,clsESuministro,23,0,0,0,10,0,5,0,5,0
+mavenproject1,pkgEntidad,clsECargo,14,17,0,0,5,8,2,5,2,5
+mavenproject1,pkgEntidad,clsEUsuarios,91,0,0,0,37,0,19,0,19,0
+mavenproject1,pkgEntidad,clsECliente,22,34,0,0,9,15,3,10,3,10
+mavenproject1,pkgNegocio,clsNCliente,474,196,4,0,105,39,3,6,1,6
+mavenproject1,pkgNegocio,clsNReservas,408,0,2,0,78,0,9,0,8,0
+mavenproject1,pkgNegocio,Conexion,12,19,0,0,2,7,0,2,0,2
+mavenproject1,pkgNegocio,clsNUsuarios,360,0,4,0,62,0,9,0,7,0
+mavenproject1,pkgNegocio,RenderTabla,20,0,2,0,5,0,3,0,2,0
+mavenproject1,pkgNegocio,clsNHabitaciones,276,0,4,0,62,0,8,0,6,0
+mavenproject1,pkgNegocio,clsNCargo,67,171,0,0,14,34,0,6,0,6
